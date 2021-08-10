@@ -40,9 +40,9 @@ $(document).ready(function (e) {
                     minlength:10,
                 },
                 mobile:{
+                    number: true,
                     minlength:10,
-                    maxlength:10,
-                    number: true
+                    maxlength:10
                 },
 
 
