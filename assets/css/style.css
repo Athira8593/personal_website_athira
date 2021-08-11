@@ -19,7 +19,7 @@ body {
 body::before {
   content: "";
   position: fixed;
-  background: #e96565 url("../img/bg9.jpg") top right no-repeat;
+  background: #000000 url("../img/bg9.jpg") top right no-repeat;
   background-size: cover;
   background-repeat: no-repeat;
   left: 0;
@@ -241,14 +241,14 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .navbar a:hover, .navbar .active, .navbar .active:focus, .navbar li:hover > a {
-  color: #18d26e;
+  color: #18d26e;;
 }
 
 /**
 * Mobile Navigation 
 */
 .mobile-nav-toggle {
-  color: rgb(187, 62, 62);
+  color: rgb(0, 0, 0);
   font-size: 28px;
   cursor: pointer;
   display: none;
@@ -365,7 +365,7 @@ section .container {
   width: 120px;
   height: 1px;
   display: inline-block;
-  background: #4ceb95;
+  background: #18d26e;;
   margin: 4px 10px;
 }
 
@@ -730,7 +730,7 @@ section .container {
 }
 
 .services .icon-box:hover .icon::before {
-  background: #35e888;
+  background: #18d26e;;
 }
 
 .services .icon-box:hover h4 a, .services .icon-box:hover p {
